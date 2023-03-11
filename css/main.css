@@ -173,6 +173,13 @@ section{
     color: #fff;
 }
 
+.headlight{
+    font-size: xx-large;
+    text-align: center;
+    background-color: #47b798;
+    padding: 5px;
+}
+
 /* detail */
 .detail{
     background: var(--white-smoke);
@@ -212,9 +219,19 @@ section{
 .feature .title{
     text-align: left;
 }
+.feature-left{
+    background-color: #1bbc9c;
+    padding: 25px;
+    border-radius: 25px 0px;
+}
 .feature-left img{
     width: 80%;
     margin: 0 auto;
+}
+.feature-left p{
+    width: 100%;
+    text-align: justify;
+
 }
 .feature-right{
     margin-top: 4rem;
@@ -237,6 +254,28 @@ section{
     padding: 0.4rem 0.7rem;
     border-radius: 2px;
     margin-right: 1.4rem;
+}
+/* brief */
+.brief{
+    /* background-color: black; */
+    padding: 50px 0;
+    width: 100%;
+    text-align: justify;
+}
+.brief-container{
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;
+}
+/* contact-section */
+.contact-section{
+    width: 25%;
+    /* background-color: #f9f9f9; */
+    padding: 35px;
+    margin: 0 auto;
+    justify-content: center;
 }
 /* video */
 .video{
